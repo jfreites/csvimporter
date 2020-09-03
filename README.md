@@ -3,14 +3,33 @@
 ### Quick instructions:
 
 - clone the project
+- setup the .env file for Docker (Important for Linux)
+- setup the .env dile for the Laravel app
 - run docker-compose up
 - run docker-compose exec app composer install
 - run docker-compose exec node npm run dev
-- setup the variables in src/.env for Laravel app
 - add in your hosts file: 127.0.0.1   http://csvimporter.local
 - in your browser go to http://csvimporter.local
 - dont forget run this command inside your app container: php artisan storage:link
 - have some fun!
+
+### Problems?
+
+- If you have issues trying to run commands inside your docker containers in the host, try in this way: 
+
+```
+docker-compose exec app bash
+
+$ php artisan list
+```
+
+### Screenshots
+
+![Home page](screenthots/home.png?raw=true "Home")
+
+![Contact list](screenthots/table.png?raw=true "Contact List")
+
+![Importer page](screenthots/importer.png?raw=true "Contact List")
 
 ### TODO
 
