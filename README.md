@@ -9,6 +9,7 @@
 - setup the variables in src/.env for Laravel app
 - add in your hosts file: 127.0.0.1   http://csvimporter.local
 - in your browser go to http://csvimporter.local
+- dont forget run this command inside your app container: php artisan storage:link
 - have some fun!
 
 ### TODO
