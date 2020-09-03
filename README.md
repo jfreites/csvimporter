@@ -25,11 +25,11 @@ $ php artisan list
 
 ### Screenshots
 
-![Home page](screenthots/home.png?raw=true "Home")
+![Home page](screenshots/home.png?raw=true "Home")
 
-![Contact list](screenthots/table.png?raw=true "Contact List")
+![Contact list](screenshots/table.png?raw=true "Contact List")
 
-![Importer page](screenthots/importer.png?raw=true "Contact List")
+![Importer page](screenshots/importer.png?raw=true "Contact List")
 
 ### TODO
 
